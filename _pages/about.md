@@ -6,7 +6,7 @@ subtitle: Deep Learning Inference Engineer/Researcher | Hardware Acceleration of
 
 profile:
   align: right
-  image: prof_pic_bw.JPG
+  image: prof_pic_bw_compressed.JPG
   image_cicular: false # crops the image to make it circular
   address: >
     <p>Home:49 Homewood Avenue</p>
