@@ -3,9 +3,10 @@ layout: page
 title: projects
 permalink: /projects/
 description: Contemplation of a hardware nerd
-nav: false
+nav: true
 nav_order: 2
 display_categories: [work, fun]
+# display_categories: [work, fun, default]
 horizontal: false
 ---
 
