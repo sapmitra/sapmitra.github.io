@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Deep Learning Inference Engineer/Researcher | Hardware Acceleration of ML
+subtitle: Embedded AI Engineer/Researcher | Hardware Acceleration of ML
 
 profile:
   align: right
