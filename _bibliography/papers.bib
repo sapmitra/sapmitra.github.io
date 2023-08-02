@@ -3,78 +3,80 @@
 
 @string{aps = {American Physical Society,}}
 
-@INPROCEEDINGS{fpgaaccelerator,
-  author={},
-  bibtex_show={false},
-  booktitle={2022 59th ACM/IEEE Design Automation Conference (DAC)},
-  title={Accelerating and Pruning CNNs for Semantic Segmentation on
-FPGA},
-  year={2022},
-  volume={},
-  number={},
-  pages={1-6},
-  abstract={Semantic segmentation is one of the popular tasks in computer
-vision, providing pixel-wise annotations for scene understand-
-ing. However, segmentation-based convolutional neural networks
-require tremendous computational power. In this work, a fully-
-pipelined hardware accelerator with support for dilated convo-
-lution is introduced, which cuts down the redundant zero mul-
-tiplications. Furthermore, we propose a genetic algorithm based
-automated channel pruning technique to jointly optimize computa-
-tional complexity and model accuracy. Finally, hardware heuristics
-and an accurate model of the custom accelerator design enable
-a hardware-aware pruning framework. We achieve 2.44× lower
-latency with minimal degradation in semantic prediction quality
-(−1.98 pp lower mean intersection over union) compared to the
-baseline DeepLabV3+ model, evaluated on an Arria-10 FPGA.},
+
+@misc{lazarevich2023yolobench,
+      title={YOLOBench: Benchmarking Efficient Object Detectors on Embedded Systems}, 
+      author={Ivan Lazarevich and Matteo Grimaldi and Ravish Kumar and Saptarshi Mitra and Shahrukh Khan and Sudhakar Sah},
+      bibtex_show={true},
+      year={2023},
+      eprint={2307.13901},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      abstract = {We present YOLOBench, a benchmark comprised of 550+ YOLO-based object detection models on 4 different datasets and 4 different embedded hardware platforms (x86 CPU, ARM CPU, Nvidia GPU, NPU). We collect accuracy and latency numbers for a variety of YOLO-based one-stage detectors at different model scales by performing a fair, controlled comparison of these detectors with a fixed training environment (code and training hyperparameters). Pareto-optimality analysis of the collected data reveals that, if modern detection heads and training techniques are incorporated into the learning process, multiple architectures of the YOLO series achieve a good accuracy-latency trade-off, including older models like YOLOv3 and YOLOv4. We also evaluate training-free accuracy estimators used in neural architecture search on YOLOBench and demonstrate that, while most state-of-the-art zero-cost accuracy estimators are outperformed by a simple baseline like MAC count, some of them can be effectively used to predict Pareto-optimal detection models. We showcase that by using a zero-cost proxy to identify a YOLO architecture competitive against a state-of-the-art YOLOv8 model on a Raspberry Pi 4 CPU. The code and data are available.},
+      abbr={arXiv},
+      selected={true},
+      pdf={https://arxiv.org/pdf/2307.13901.pdf},
+      code = {https://github.com/Deeplite/deeplite-torch-zoo}
+}
+
+
+@InProceedings{Ganji_2023_CVPR,
+    author    = {Ganji, Darshan C. and Ashfaq, Saad and Saboori, Ehsan and Sah, Sudhakar and Mitra, Saptarshi and AskariHemmat, MohammadHossein and Hoffman, Alexander and Hassanien, Ahmed and L\'eonardon, Mathieu},
+    title     = {DeepGEMM: Accelerated Ultra Low-Precision Inference on CPU Architectures Using Lookup Tables},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    bibtex_show={true},
+    month     = {June},
+    year      = {2023},
+    pages     = {4655-4663},
+    abstract = {A lot of recent progress has been made in ultra low-bit quantization, promising significant improvements in latency, memory footprint and energy consumption on edge devices. Quantization methods such as Learned Step Size Quantization can achieve model accuracy that is comparable to full-precision floating-point baselines even with sub-byte quantization. However, it is extremely challenging to deploy these ultra low-bit quantized models on mainstream CPU devices because commodity SIMD (Single Instruction, Multiple Data) hardware typically supports no less than 8-bit precision. To overcome this limitation, we propose DeepGEMM, a lookup table based approach for the execution of ultra low-precision convolutional neural networks on SIMD hardware. The proposed method precomputes all possible products of weights and activations, stores them in a lookup table, and efficiently accesses them at inference time to avoid costly multiply-accumulate operations. Our 2-bit implementation outperforms corresponding 8-bit integer kernels in the QNNPACK framework by up to 1.74x on x86 platforms.},
+    abbr={CVPRW},
+    selected={true},
+    pdf={https://openaccess.thecvf.com/content/CVPR2023W/ECV/papers/Ganji_DeepGEMM_Accelerated_Ultra_Low-Precision_Inference_on_CPU_Architectures_Using_Lookup_CVPRW_2023_paper.pdf},
+}
+
+@inproceedings{10.1145/3489517.3530424,
+author = {Mor\`{\i}, Pierpaolo and Vemparala, Manoj-Rohit and Fasfous, Nael and Mitra, Saptarshi and Sarkar, Sreetama and Frickenstein, Alexander and Frickenstein, Lukas and Helms, Domenik and Nagaraja, Naveen Shankar and Stechele, Walter and Passerone, Claudio},
+bibtex_show={true},
+title = {Accelerating and Pruning CNNs for Semantic Segmentation on FPGA},
+year = {2022},
+isbn = {9781450391429},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3489517.3530424},
+doi = {10.1145/3489517.3530424},
+abstract = {Semantic segmentation is one of the popular tasks in computer vision, providing pixel-wise annotations for scene understanding. However, segmentation-based convolutional neural networks require tremendous computational power. In this work, a fully-pipelined hardware accelerator with support for dilated convolution is introduced, which cuts down the redundant zero multiplications. Furthermore, we propose a genetic algorithm based automated channel pruning technique to jointly optimize computational complexity and model accuracy. Finally, hardware heuristics and an accurate model of the custom accelerator design enable a hardware-aware pruning framework. We achieve 2.44X lower latency with minimal degradation in semantic prediction quality (−1.98 pp lower mean intersection over union) compared to the baseline DeepLabV3+ model, evaluated on an Arria-10 FPGA. The binary files of the FPGA design, baseline and pruned models can be found in github.com/pierpaolomori/SemanticSegmentationFPGA},
+booktitle = {Proceedings of the 59th ACM/IEEE Design Automation Conference},
+pages = {145–150},
+numpages = {6},
+location = {San Francisco, California},
+series = {DAC '22},
 abbr={DAC},
-selected={true}
+selected={true},
+pdf={https://drive.google.com/file/d/1SFMNmo-657CvXmbcGjfKQeN_PnK8NOf_/view?usp=sharing},
+code = {https://github.com/pierpaolomori/SemanticSegmentationFPGA}
 }
 
-@INPROCEEDINGS{masterthesisSaptarshi,
-  author={Saptarshi Mitra},
-  bibtex_show={false},
+
+@mastersthesis{Thesis_Saptarshi_Mitra_2a_print.pdf,
+	author = {Mitra, Saptarshi},
+  bibtex_show={true},
   booktitle={Master's Thesis, Chair of Integrated Systems, Tecnical University of Munich},
-  title={Accelerating Semantic Segmentation on FPGA},
-  year={2021},
-  volume={},
-  number={},
-  pages={1-97},
-  abstract={From healthcare to autonomous driving, Deep Neural Networks (DNN) dominate
-
-over the traditional Computer Vision (CV) approaches in terms of accuracy and effi-
-ciency. Exponential increase of DNN applications require tremendous computation
-
-power of the underlying hardware resources. Naturally, the superior performance of
-DNN models comes at a cost of huge memory footprint and complex calculations.
-
-Even if Graphics Processing Units (GPU) are the main work-horse during the train-
-ing of DNNs for their massive computational capabilities, they are not suitable for
-
-mobile deployments. Computations in remote cloud is also not suitable for unreli-
-able network latency and potential security issues. The hardware, accelerating the
-
-inference at the edge, should offer flexibility of deployment due to the rapid-changing
-nature of this research area. Field-programmable Gate Array (FPGA) provides the
-best trade-off between performance, power-consumption and design flexibility.
-Convolutional Neural Networks (CNN) are the state-of-the-art for computer vision
-applications. Semantic image segmentation is one of the most complex tasks in
-computer vision, providing pixel-wise annotations for complete scene understanding.
-For a critical application like autonomous driving, DeepLabV3+ model provides the
-state-of-the-art Mean Intersection-Over-Union (mIOU) for semantic segmentation
-on the CityScapes dataset. In this work, a fully pipelined hardware accelerator
-implementing novel dilated convolution was introduced. Using this accelerator, an
-end-end DeepLabV3+ deployment was possible on FPGA. This architecture exploits
-hardware optimizations like 3-D loop unrolling, memory tiling to maximize use of
-computational resources and provides 2.34ˆ latency improvement with respect to
-the baseline architecture.
-Further, a Genetic Algorithm (GA) based automated channel pruning technique
-was used to jointly optimize hardware usage and model accuracy. Finally, hardware
-awareness was incorporated in the pruning search by hardware heuristics and an
-accurate model of the custom accelerator. Overall a 4ˆ speedup was observed for a
-4% degradation in mIOU.},
-abbr={Master Thesis}
+	title = {Accelerating Semantic Image Segmentation on FPGA},
+	year = {2021},
+	school = {Technische Universität München},
+	month = {},
+	adress = {81375 Munich},
+	pages = {},
+	language = {en},
+	abstract = {From healthcare to autonomous driving, Deep Neural Networks (DNN) dominate over the traditional Computer Vision (CV) approaches in terms of accuracy and efficiency. Exponential increase of DNN applications require tremendous computation power of the underlying hardware resources. Naturally, the superior performance of DNN models comes at the cost of a huge memory footprint and complex calculations. Even if Graphics Processing Units (GPU) are the main work-horse during the training of DNNs for their massive computational capabilities, they are not suitable for mobile deployments. Field-programmable Gate Array (FPGA) provides the best trade-off between performance, power-consumption and design flexibility. Semantic image segmentation is one of the most complex tasks in computer vision, providing pixel-wise annotations for complete scene understanding. For a critical application like autonomous driving, DeepLabV3+ model provides the state-of-the-art Mean Intersection-Over-Union (mIOU) for semantic segmentation on the CityScapes dataset. In this work, a fully pipelined hardware accelerator implementing novel dilated convolution was introduced. Using this accelerator, an end-end DeepLabV3+ deployment was possible on an FPGA. This architecture exploits hardware optimizations like 3-D loop unrolling, memory tiling to maximize use of computational resources and provides 2.34 times latency improvement with respect to the baseline architecture. Further, a Genetic Algorithm (GA) based automated channel pruning technique was used to jointly optimize hardware usage and model accuracy. Finally, hardware awareness was incorporated in the pruning search by hardware heuristics and an accurate model of the custom accelerator.},
+	keywords = {CNN; DNN; Semantic Segmentation; Hardware Acceleration; FPGA; HLS; OpenCL; Pruning},
+	note = {},
+  abbr={Master Thesis},
+  pdf={https://mediatum.ub.tum.de/doc/1649493/1649493.pdf}
 }
+
+
+
 
 @INPROCEEDINGS{8328275,
   bibtex_show={true},
