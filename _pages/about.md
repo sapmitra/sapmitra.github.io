@@ -2,26 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI Inference Engineer/Researcher | Hardware Acceleration of ML
+subtitle: Ph.D. Researcher, EECS at UCI | Hardware Acceleration of ML
 
 profile:
   align: right
   image: prof_pic_bw_compressed.JPG
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>2804, 561 Sherbourne St</p>
-    <p>Toronto, M4X 0A1</p>
-    <p>Office:100 Simcoe St</p>
-    <p>Toronto, ON M5H 3G2</p>
+    <p>66112 Verano Place</p>
+    <p>Irvine, CA 92617 </p>
+    <p>Office: Engineering Hall, 308 5200</p>
+    <p>Irvine, CA 92697</p>
 
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Currently I am working as an Embedded AI Engineer at <a href='https://www.deeplite.ai/'>Deeplite</a> in Toronto. I am primarily working with compilers and runtimes to deploy Deep Learning vision models in low-power embedded devices. My research interests include hardware acceleration of ML workloads, computer architecture, hardware aware machine learning. I am passionate about designing deep learning solutions to challenging problems and deploying them to edge devices.
+Currently I am working as a Ph.D. researcher at UC Irvine with Prof. <a href='https://hyoukjunkwon.com/'>Hyoukjun Kwon</a>. My research interests include domain-specific computer architectures, hardware acceleration of ML workloads, hardware aware machine learning. I am passionate about designing deep learning solutions to challenging problems and deploying them to low-power devices.
 
-I have completed my Master of Science in Communication Engineering with a focus on hardware acceleration for inference at the <a href='https://www.tum.de/en/'>Technical University of Munich</a> under Prof. <a href='https://www.ce.cit.tum.de/en/lis/persons/management/walter-stechele/'>Walter Stechele</a>. Earlier, I spent time with <a href='https://www.intel.ca/content/www/ca/en/homepage.html'>Intel</a> working on Digital Design Verification and System Debugger tools validation. 
+Previously. I worked as an Embedded AI Research Engineer at <a href='https://www.deeplite.ai/'>Deeplite</a> in Toronto. There I primarily worked with compilers and runtimes to deploy Deep Learning vision models in low-power embedded devices. I have completed my Master of Science in Communication Engineering with a focus on hardware acceleration for inference at the <a href='https://www.tum.de/en/'>Technical University of Munich</a> under Prof. <a href='https://www.ce.cit.tum.de/en/lis/persons/management/walter-stechele/'>Walter Stechele</a>. Earlier, I spent time with <a href='https://www.intel.ca/content/www/ca/en/homepage.html'>Intel</a> working on Digital Design Verification and System Debugger tools validation. 
 <!---
 in the <a href='https://www.ce.cit.tum.de/en/lis/home/'>Chair of Integrated Systems</a> (LIS)
 -->
