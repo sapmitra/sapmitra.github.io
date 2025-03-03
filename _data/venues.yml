@@ -7,3 +7,33 @@
 
 "Vision":
   color: "#009f36"
+
+"DAC":
+  url: https://www.dac.com/
+
+"CVPRW":
+  url: https://sites.google.com/view/ecv23/home?authuser=0
+  color: "#309b7c"
+
+"ICCVW":
+  url: https://openaccess.thecvf.com/menu
+  color: "#309b7c"
+
+"BMVC":
+  url: https://www.bmvc2023.org/
+  color: "#309b7c"
+
+"Master Thesis":
+  url: https://mediatum.ub.tum.de/doc/1649493/1649493.pdf
+
+"COMSNETS":
+  url: https://www.comsnets.org/
+  color: "#00369f"
+
+"IEECON":
+  url: https://www.ieecon.org/
+  color: "#00369f"
+
+"ICECC":
+  url: https://www.icecc.org/
+  color: "#00369f"
