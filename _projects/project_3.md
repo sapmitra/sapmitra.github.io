@@ -44,7 +44,7 @@ The webapp (with ML models running at the backend) having stringency index and s
 </div> 
 
 
-The complete source code is available <a href='https://github.com/mRse7enNIT/carbon-prediction-policy-decisions-COVID'>here</a>. 
+The complete source code is available <a href='https://github.com/sapmitra/carbon-prediction-policy-decisions-COVID'>here</a>. 
 
 
 

@@ -13,4 +13,4 @@ Organize your courses by years, topics, or universities, however you like! -->
 
 ## VHDL System Design Lab (EI7403)
 * Responsible for tutoring and mentoring graduate level students at the Technical University of Munich (2020-21)
-    * <a href='https://github.com/mRse7enNIT/IDEA_VHDL'>Source code</a>
+    * <a href='https://github.com/sapmitra/IDEA_VHDL'>Source code</a>

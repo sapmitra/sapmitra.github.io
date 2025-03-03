@@ -26,7 +26,7 @@ Previously. I worked as an Embedded AI Research Engineer at <a href='https://www
 in the <a href='https://www.ce.cit.tum.de/en/lis/home/'>Chair of Integrated Systems</a> (LIS)
 -->
 
- Besides spending time in front of a screen or tweaking hardware, I am fond of hiking, biking and do occasional landscape <a href='https://www.instagram.com/saptarshi_mrse7en/'>photography</a>. Having "well trained" taste buds I am picking up with culinary skills. Here is a link to my outdated <a href='https://mrse7ennit.github.io/old_website/'>website</a>.
+ Besides spending time in front of a screen or tweaking hardware, I am fond of hiking, biking and do occasional landscape <a href='https://www.instagram.com/saptarshi_mrse7en/'>photography</a>. Having "well trained" taste buds I am picking up with culinary skills. Here is a link to my outdated <a href='https://sapmitra.github.io/old_website/'>website</a>.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
