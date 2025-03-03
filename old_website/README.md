@@ -1,4 +1,4 @@
-mRse7enNIT.github.io
+sapmitra.github.io
 ========================
 
 Personal Website
