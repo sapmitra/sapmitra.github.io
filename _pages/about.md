@@ -1,18 +1,14 @@
 ---
 layout: about
-title: about
+title: Saptarshi
 permalink: /
 subtitle: Ph.D. Researcher, EECS at UCI | Hardware Acceleration of ML
 
 profile:
   align: right
-  image: prof_pic_bw_compressed.JPG
+  image: prof_embedded_server.jpg
   image_cicular: false # crops the image to make it circular
   more_info: >
-    <p>66112 Verano Place</p>
-    <p>Irvine, CA 92617 </p>
-    <p>Office: Engineering Hall, 308 5200</p>
-    <p>Irvine, CA 92697</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

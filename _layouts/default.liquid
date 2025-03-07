@@ -21,6 +21,11 @@
     {% include header.liquid %}
 
     <!-- Content -->
+    {% if page.title == "Saptarshi" %}
+    <div class="container mt-5">
+      <img class="img-fluid float-right" style="height: 2.2rem" src="{{ '/assets/img/uci-primary-wordmark-white.png' | relative_url }}"/>    
+    </div>
+    {% endif %}
     <div class="container mt-5" role="main">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
