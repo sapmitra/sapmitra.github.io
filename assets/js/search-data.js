@@ -37,14 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/services/";
           },
-        },{id: "dropdown-old-website",
-              title: "Old Website",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/old_website/";
-              },
-            },{id: "post-a-post-with-image-galleries",
+        },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
@@ -432,11 +425,14 @@ ninja.data = [{
           section: "News",},{id: "news-deeplitert-paper-accepted-at-bmvc-2023",
           title: 'DeepliteRT paper accepted at BMVC 2023!',
           description: "",
-          section: "News",},{id: "news-us-patent-filed-for-lookup-tables-for-ultra-low-bit-operations-sparkles",
-          title: 'US Patent filed for Lookup Tables for Ultra Low-Bit Operations :sparkles:',
+          section: "News",},{id: "news-us-patent-filed-for-lookup-tables-for-ultra-low-bit-operations",
+          title: 'US Patent filed for Lookup Tables for Ultra Low-Bit Operations',
           description: "",
           section: "News",},{id: "news-joined-uc-irvine-as-a-phd-researcher-in-the-isa-lab-with-eecs-department-fellowship-sparkles",
           title: 'Joined UC Irvine as a PhD researcher in the ISA Lab with EECS...',
+          description: "",
+          section: "News",},{id: "news-i-will-be-joining-meta-reality-labs-as-an-intern-for-summer-2025-working-on-next-gen-ar-glasses-with-hans-reyserhove-sparkles",
+          title: 'I will be joining Meta Reality Labs as an Intern for Summer 2025...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
