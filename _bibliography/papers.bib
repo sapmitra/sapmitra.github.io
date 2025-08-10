@@ -3,6 +3,22 @@
 
 @string{aps = {American Physical Society,}}
 
+@misc{mitra2025characterizingstatespacemodel,
+      title={Characterizing State Space Model (SSM) and SSM-Transformer Hybrid Language Model Performance with Long Context Length}, 
+      author={Saptarshi Mitra and Rachid Karami and Haocheng Xu and Sitao Huang and Hyoukjun Kwon},
+      year={2025},
+      abstract = {The demand for machine intelligence capable of processing continuous, long-context inputs on local devices is growing rapidly. However, the quadratic complexity and memory requirements of traditional Transformer architectures make them inefficient and often unusable for these tasks. This has spurred a paradigm shift towards new architectures like State Space Models (SSMs) and hybrids, which promise near-linear scaling. While most current research focuses on the accuracy and theoretical throughput of these models, a systematic performance characterization on practical consumer hardware is critically needed to guide system-level optimization and unlock new applications.
+To address this gap, we present a comprehensive, comparative benchmarking of carefully selected Transformer, SSM, and hybrid models specifically for long-context inference on consumer and embedded GPUs. Our analysis reveals that SSMs are not only viable but superior for this domain, capable of processing sequences up to 220K tokens on a 24GB consumer GPU-approximately 4x longer than comparable Transformers. While Transformers may be up to 1.8x faster at short sequences, SSMs demonstrate a dramatic performance inversion, becoming up to 4x faster at very long contexts (~57K tokens). Our operator-level analysis reveals that custom, hardware-aware SSM kernels dominate the inference runtime, accounting for over 55% of latency on edge platforms, identifying them as a primary target for future hardware acceleration. We also provide detailed, device-specific characterization results to guide system co-design for the edge. To foster further research, we will open-source our characterization framework.}
+      bibtex_show={true},
+      eprint={2507.12442},
+      archivePrefix={arXiv},
+      primaryClass={cs.AR},
+      url={https://arxiv.org/abs/2507.12442}, 
+      abbr={arXiv},
+      selected={true},
+      pdf={https://arxiv.org/pdf/2507.12442}
+}
+
 @misc{ashfaq2023deeplitert,
       title={DeepliteRT: Computer Vision at the Edge}, 
       author={Saad Ashfaq and Alexander Hoffman and Saptarshi Mitra and Sudhakar Sah and MohammadHossein AskariHemmat and Ehsan Saboori},
