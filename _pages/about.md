@@ -25,7 +25,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 -->
-Currently I am working as a Ph.D. researcher at UC Irvine with Prof. <a href='https://hyoukjunkwon.com/'>Hyoukjun Kwon</a>. My research interests include domain-specific computer architectures, hardware acceleration of ML workloads, hardware aware machine learning. I am passionate about designing deep learning solutions to challenging problems and deploying them to low-power devices.
+Currently I am working as a Ph.D. researcher at UC Irvine with Prof. <a href='https://sitaohuang.com/'>Sitao Huang</a> and Prof. <a href='https://hyoukjunkwon.com/'>Hyoukjun Kwon</a>. My research interests include domain-specific computer architectures, hardware acceleration of emerging ML workloads, hardware aware machine learning. I am passionate about designing deep learning solutions to challenging problems and deploying them to low-power devices.
 
 Previously, I worked as an Embedded AI Research Engineer at <a href='https://www.deeplite.ai/'>Deeplite</a> in Toronto. There I primarily worked with compilers and runtimes to deploy Deep Learning vision models in low-power embedded devices. I have completed my Master of Science in Communication Engineering with a focus on hardware acceleration for inference at the <a href='https://www.tum.de/en/'>Technical University of Munich</a> under Prof. <a href='https://www.ce.cit.tum.de/en/lis/persons/management/walter-stechele/'>Walter Stechele</a>. Earlier, I spent time with <a href='https://www.intel.ca/content/www/ca/en/homepage.html'>Intel</a> working on Digital Design Verification and System Debugger tools validation. 
 <!---
