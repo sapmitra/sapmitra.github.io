@@ -14,6 +14,9 @@
 "DAC":
   url: https://www.dac.com/
 
+"ISPASS":
+  url: https://www.ispass.org/
+
 "CVPRW":
   url: https://sites.google.com/view/ecv23/home?authuser=0
   color: "#309b7c"
