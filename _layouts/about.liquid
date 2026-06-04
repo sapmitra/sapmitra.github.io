@@ -48,6 +48,82 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    {% if page.permalink == '/' %}
+      <h2>affiliations</h2>
+      <div class="org-grid affiliations-grid">
+        <div class="org-card">
+          <div class="org-logo"><img src="/assets/img/NIT_Durgapur_Logo.svg.png" alt="NIT Durgapur logo"></div>
+          <div class="org-meta">
+            <div class="org-name"><a href="https://nitdgp.ac.in/">NIT Durgapur</a></div>
+            <div class="org-time">2013-2017</div>
+          </div>
+        </div>
+        <div class="org-card">
+          <div class="org-logo"><img src="/assets/img/Verizon_2015_logo_-vector.svg.png" alt="Verizon logo"></div>
+          <div class="org-meta">
+            <div class="org-name"><a href="https://www.verizon.com/">Verizon</a></div>
+            <div class="org-time">2017-2018</div>
+          </div>
+        </div>
+        <div class="org-card">
+          <div class="org-logo"><img src="/assets/img/Logo_of_the_Technical_University_of_Munich.svg" alt="TU Munich logo"></div>
+          <div class="org-meta">
+            <div class="org-name"><a href="https://www.tum.de/en/">TU Munich</a></div>
+            <div class="org-time">2018-2021</div>
+          </div>
+        </div>
+        <div class="org-card">
+          <div class="org-logo"><img src="/assets/img/Deeplite.webp" alt="Deeplite logo"></div>
+          <div class="org-meta">
+            <div class="org-name"><a href="https://www.linkedin.com/company/deeplite/?originalSubdomain=ca">Deeplite (STMicroelectronics)</a></div>
+            <div class="org-time">2021-2024</div>
+          </div>
+        </div>
+        <div class="org-card">
+          <div class="org-logo"><img src="/assets/img/UCI.png" alt="UC Irvine logo"></div>
+          <div class="org-meta">
+            <div class="org-name"><a href="https://www.uci.edu/">UC Irvine</a></div>
+            <div class="org-time">2024-present</div>
+          </div>
+        </div>
+      </div>
+
+      <h2>internships</h2>
+      <div class="org-grid internships-grid">
+        <div class="org-card">
+          <div class="org-logo"><img src="/assets/img/tcs_research_logo.jpeg" alt="TCS Innovation Labs logo"></div>
+          <div class="org-meta">
+            <div class="org-name"><a href="https://www.tcs.com/what-we-do/research">TCS Innovation Labs</a></div>
+            <div class="org-time">Summer 2016</div>
+          </div>
+        </div>
+        <div class="org-card">
+          <div class="org-logo"><img src="/assets/img/Intel-logo-2022.png" alt="Intel logo"></div>
+          <div class="org-meta">
+            <div class="org-name"><a href="https://www.intel.com/">Intel</a></div>
+            <div class="org-time">2019-2020</div>
+          </div>
+        </div>
+        <div class="org-card">
+          <div class="org-logo dual-logo">
+            <img src="/assets/img/Meta_Platforms_Inc._logo_(cropped).svg.png" alt="Meta logo">
+            <img src="/assets/img/Reality_Labs_logo.svg.png" alt="Reality Labs logo">
+          </div>
+          <div class="org-meta">
+            <div class="org-name"><a href="https://about.meta.com/">Meta</a></div>
+            <div class="org-time">Summer 2025</div>
+          </div>
+        </div>
+        <div class="org-card">
+          <div class="org-logo"><img src="/assets/img/Microsoft_logo_(2012).svg.webp" alt="Microsoft logo"></div>
+          <div class="org-meta">
+            <div class="org-name"><a href="https://www.microsoft.com/">Microsoft</a></div>
+            <div class="org-time">Summer 2026</div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
