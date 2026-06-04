@@ -516,6 +516,12 @@ ninja.data = [{
           section: "Services",},{id: "services-reviewer-for-for-design-automation-conference-dac-2024-2025-2026",
           title: 'Reviewer for  for Design Automation Conference (DAC 2024, 2025, 2026).',
           description: "",
+          section: "Services",},{id: "services-reviewer-for-international-symposium-on-microarchitecture-micro-2026",
+          title: 'Reviewer for International Symposium on Microarchitecture (MICRO 2026).',
+          description: "",
+          section: "Services",},{id: "services-reviewer-for-ieee-acm-international-conference-on-computer-aided-design-iccad-2026",
+          title: 'Reviewer for IEEE/ACM International Conference on Computer-Aided Design (ICCAD 2026).',
+          description: "",
           section: "Services",},{
         id: 'social-email',
         title: 'email',
