@@ -522,6 +522,9 @@ ninja.data = [{
           section: "Services",},{id: "services-reviewer-for-ieee-acm-international-conference-on-computer-aided-design-iccad-2026",
           title: 'Reviewer for IEEE/ACM International Conference on Computer-Aided Design (ICCAD 2026).',
           description: "",
+          section: "Services",},{id: "services-reviewer-for-the-2026-conference-on-empirical-methods-in-natural-language-processing-emnlp-2026",
+          title: 'Reviewer for The 2026 Conference on Empirical Methods in Natural Language Processing(EMNLP 2026)....',
+          description: "",
           section: "Services",},{
         id: 'social-email',
         title: 'email',
