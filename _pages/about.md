@@ -6,7 +6,7 @@ subtitle: Ph.D. Researcher, EECS at UCI | Hardware Acceleration of ML
 
 profile:
   align: right
-  image: prof_pic_bw_compressed.JPG
+  image: prof_pic_bw_msft_cropped.JPG
   image_cicular: false # crops the image to make it circular
   more_info: >
 
