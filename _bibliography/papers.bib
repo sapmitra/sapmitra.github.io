@@ -3,6 +3,51 @@
 
 @string{aps = {American Physical Society,}}
 
+@misc{xu2026lowrankssm,
+      title={LowRank-SSM: Hardware-Software Co-Design for Rank-Reduced Mamba Acceleration on FPGA},
+      author={Haocheng Xu and Bhardwaj Bhat and Yu-an Chou and Zhiheng Chen and Leyao Han and Yifan Zhang and Ye Qiao and Saptarshi Mitra and Sitao Huang},
+      year={2026},
+      abstract = {State Space Models (SSMs) such as Mamba and Mamba-2 achieve linear-time autoregressive inference, making them attractive for latency-sensitive and resource-constrained deployment. Yet their large input and output projection layers impose quadratic weight memory and off-chip bandwidth costs that bottleneck practical FPGA deployment, accounting for over 60% per-token runtime at sequence lengths of 1,024 and beyond. Existing accelerators reduce this overhead through quantization or activation sparsity, but none treat projection rank as an explicit hardware design variable, leaving a systematic accuracy-throughput trade-off unexplored. We present LowRank-SSM, a hardware-software co-design framework that closes this gap. On the software side, we decompose the input and output projection weights via post-training truncated SVD and introduce a greedy bandwise rank-allocation algorithm that searches for the per-band rank vector that minimizes weight storage while respecting a user-specified accuracy constraint. On the hardware side, we map the resulting factored projections onto a fully-pipelined accelerator on an FPGA, featuring a dual-path projection (low-rank path and full-rank path), a fused selective-scan unit, and five independent AXI master bundles that saturate DDR4 bandwidth without bus contention. A per-band runtime rank mask enables mixed-rank execution across all 64 layers with zero architectural overhead. On Xilinx Versal VC1902 at 400 MHz, the deployed mixed-rank INT8 design achieves 7.89 tokens/s, representing a 2.19x throughput improvement and 2.03x energy-efficiency improvement over SOTA at comparable power and accuracy.},
+      bibtex_show={true},
+      eprint={2608.02954},
+      archivePrefix={arXiv},
+      primaryClass={cs.AR},
+      url={https://arxiv.org/abs/2608.02954},
+      abbr={arXiv},
+      selected={true},
+      pdf={https://arxiv.org/pdf/2608.02954}
+}
+
+@misc{mitra2026mosaic,
+      title={MOSAIC: Efficient Mixture-of-Agent Scheduling via Adaptive Aggregation and Inference Concurrency},
+      author={Saptarshi Mitra and Yifan Zhang and Rachid Karami and Phyo Pyae Moe Aung and Nazmul Takbir and Sreetama Sarkar and Souvik Kundu and Sitao Huang},
+      year={2026},
+      abstract = {Mixture-of-Agents (MoA) systems improve reasoning accuracy by routing each query to multiple expert LLMs and aggregating their outputs. Efficiently executing this workload on limited GPU resources has bottlenecks. Skill-based routing creates skewed expert demand, and combining instruction-tuned LLMs with long-reasoning models results in extreme variability in generation lengths. Consequently, traditional scheduling strategies suffer from significant GPU idling and throughput collapse due to load imbalances. We present MOSAIC, a scheduling framework to accelerate MoA workloads. First, we formulate an Integer Linear Program (ILP) based scheduler that jointly optimizes expert placement and per-worker prompt assignment from offline-profiled costs, replicating reasoning experts across workers while pinning lightweight ones. Second, MOSAIC uses confidence-aware adaptive aggregation, leveraging inter-expert agreement to bypass the heavy final aggregator LLM for consensus queries. In our 4-GPU system, MOSAIC achieves up to 2.5x expert-stage, 4.23x aggregator-stage and 1.7-2.3x end-to-end speedups over the baseline scheduler, while matching accuracy within 0.1pp.},
+      bibtex_show={true},
+      eprint={2606.03014},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2606.03014},
+      abbr={arXiv},
+      selected={true},
+      pdf={https://arxiv.org/pdf/2606.03014}
+}
+
+@misc{karfakis2025rapidllm,
+      title={RAPID-LLM: Resilience-Aware Performance Analysis of Infrastructure for Distributed LLM Training and Inference},
+      author={George Karfakis and Faraz Tahmasebi and Binglu Chen and Lime Yao and Saptarshi Mitra and Tianyue Pan and Hyoukjun Kwon and Puneet Gupta},
+      year={2025},
+      abstract = {RAPID-LLM is a unified performance modeling framework for large language model (LLM) training and inference on GPU clusters. It couples a DeepFlow-based frontend that generates hardware-aware, operator-level Chakra execution traces from an abstract LLM specification (model shape, batch/sequence settings, training vs. inference, and hybrid parallelism choices) with an extended Astra-Sim backend that executes those traces on explicit multi-dimensional network topologies with congestion-aware routing and support for degraded and faulty links. The frontend assigns per-operator latency using a tile-based model that accounts for SM under-utilization and multi-level memory traffic (SRAM/L2/HBM), and prunes memory-infeasible configurations using an activation-liveness traversal under recomputation, parallelism and ZeRO/FSDP sharding policies. Across A100-based validation cases, RAPID-LLM predicts Llama inference step latency and GPT-scale training time per batch within 10.4% relative to published measurements, and matches ns-3 packet-level results within 8% on representative communication workloads. Case studies demonstrate how RAPID-LLM enables fast, exhaustive sweeps over hybrid-parallel configurations, quantifies sensitivity to soft link faults under realistic routing and congestion, and evaluates hypothetical GPU design variants including HBM bandwidth throttling effects.},
+      bibtex_show={true},
+      eprint={2512.19606},
+      archivePrefix={arXiv},
+      primaryClass={cs.PF},
+      url={https://arxiv.org/abs/2512.19606},
+      abbr={arXiv},
+      selected={false},
+      pdf={https://arxiv.org/pdf/2512.19606}
+}
+
 @misc{mitra2025characterizingstatespacemodel,
       title={Characterizing State Space Model (SSM) and SSM-Transformer Hybrid Language Model Performance with Long Context Length}, 
       author={Saptarshi Mitra and Rachid Karami and Haocheng Xu and Sitao Huang and Hyoukjun Kwon},
