@@ -38,6 +38,34 @@ body.sticky-bottom-footer {
   }
 }
 
+// Mentorship call-out on the about page
+.mentorship-callout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  margin: 1.75rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--global-theme-color);
+  border-left: 5px solid var(--global-theme-color);
+  border-radius: 8px;
+  background-color: var(--global-card-bg-color);
+  box-shadow: 0 1px 4px var(--global-divider-color);
+
+  i {
+    color: var(--global-theme-color);
+    font-size: 1.35rem;
+    line-height: 1.5;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  strong {
+    color: var(--global-theme-color);
+  }
+}
+
 // Affiliations and internships
 .org-grid {
   display: grid;
