@@ -41,7 +41,7 @@ in the <a href='https://www.ce.cit.tum.de/en/lis/home/'>Chair of Integrated Syst
   <p>
     <strong>Mentorship:</strong>
     I am happy to chat and collaborate with students interested in ML systems, AI hardware acceleration, or navigating grad school. Drop me an
-    <a href="mailto:{{ site.data.socials.email | encode_email }}">email</a> with your CV.
+    <a href="mailto:{{ site.data.socials.school_email | encode_email }}">email</a> (saptarshi.mitra [at] uci [dot] edu) with your CV.
   </p>
 </div>
 
