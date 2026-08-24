@@ -533,6 +533,13 @@ ninja.data = [{
           window.open("mailto:%73%61%70%74%61%72%73%68%69%31%34%6D%69%74%72%61@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-school-email',
+        title: 'university email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%73%61%70%74%61%72%73%68%69.%6D%69%74%72%61@%75%63%69.%65%64%75", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
